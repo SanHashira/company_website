@@ -6,11 +6,11 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start text-black ">
         <div className="d-flex align-items-center justify-content-center gap-4 bg-white pe-4">
           <img
-            src="https://drive.google.com/file/d/10rbuXaTVJ5B48Au3HawCrAh4ixFNohQ1/view?usp=drivesdk" // Correct path to the image in the public folder
-            alt="Logo"
-            className="img-fluid"
-            style={{ maxWidth: "100px", height: "auto" }} // Optional styling to control the size
-          />
+           src="https://drive.google.com/uc?export=view&id=10rbuXaTVJ5B48Au3HawCrAh4ixFNohQ1"
+           alt="Logo"
+           className="img-fluid"
+           style={{ maxWidth: "100px", height: "auto" }}
+           />
           <h1 className="display-1 fw-bold mb-1">SanHashira</h1>
         </div>
         <div className="d-flex align-items-center justify-content-center w-100">
