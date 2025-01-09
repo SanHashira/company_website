@@ -14,7 +14,7 @@ export default function Home() {
           <h1 className="display-1 fw-bold mb-1">SanHashira</h1>
         </div>
         <div className="d-flex align-items-center justify-content-center w-100">
-          <p className="text-white text-center w-100">
+          <p className="text-white fw-bold text-center w-100">
             Coming Soon for Three Foundations
           </p>
         </div>
