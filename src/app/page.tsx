@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+const assetBasePath = process.env.NEXT_PUBLIC_ASSET_BASE_PATH || "";
 import Image from 'next/image';
 // src/pages/index.js
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
             <span className="sr-only">Loading... </span>
           </div> */}
           <Image
-          src='/assets/images/logo.jpeg'
+           src={`${assetBasePath}/assets/images/logo.jpeg`}
           width={100}
           height={100}
           alt="Logo"
